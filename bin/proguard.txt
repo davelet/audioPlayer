@@ -1,0 +1,23 @@
+# view AndroidManifest.xml #generated:36
+-keep class com.dave.player.DetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.dave.player.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.dave.player.OptionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.dave.player.PlayerActivity { <init>(...); }
+
+# onClick res/layout/option_layout.xml #generated:26
+# onClick res/layout/player_ui.xml #generated:124
+-keepclassmembers class * { *** closeApplication(...); }
+
+# onClick res/layout/option_layout.xml #generated:7
+# onClick res/layout/player_ui.xml #generated:114
+-keepclassmembers class * { *** getDetail(...); }
+
+# onClick res/layout/option_layout.xml #generated:16
+-keepclassmembers class * { *** playMP3(...); }
+

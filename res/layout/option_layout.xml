@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:onClick="getDetail"
+        android:text="@string/detail"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:onClick="playMP3"
+        android:text="@string/play"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:onClick="closeApplication"
+        android:text="@string/quit"
+        android:textSize="16sp" />
+
+</LinearLayout>

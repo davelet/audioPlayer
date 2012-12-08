@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">晓东听歌</string>
+    <string name="title_activity_main">晓东听歌</string>
+    <string name="artist">歌手：</string>
+    <string name="duration">时长：</string>
+    <string name="album">专辑：</string>
+    <string name="wait">请稍等</string>
+    <string name="looking">正在搜索歌曲 &#8230;</string>
+    <string name="detail">曲目详情</string>
+    <string name="play">播放歌曲</string>
+    <string name="pause">暂停播放</string>
+    <string name="quit">退出</string>
+    <string name="dave">魏晓东18817575857</string>
+    <string name="composer">作者：</string>
+    <string name="size">大小：</string>
+    <string name="mime">MIME_TYPE：</string>
+    <string name="date">创作时间：</string>
+    <string name="no_lrc">暂无歌词</string>
+
+</resources>
